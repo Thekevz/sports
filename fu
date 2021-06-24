@@ -1,0 +1,107 @@
+<!doctype html>
+
+<head>
+<meta charset="utf-8">
+<title>sport</title>
+<style>
+*{margin:0;padding:0;}
+html{background-color:black;}
+body{width:1365px;margin:auto;background-color:black;}
+header{width:1365px;height:200px;background-color:yellow;}
+nav{width:1365px;height:50px;background-color:orange;}
+main{width:1365px;height:500px;background-color:pink;}
+footer{width:1365px;height:50px;background-color:green;}
+section#banner{width:1000px;height:200px;float:left;background-color:red;}
+section#logo{width:365px;height:200px;float:left;background-color:gray;}
+aside#left{width:365px;height:500px;float:left;background-color:purple;}
+article{width:1000px;height:500px;float:left;background-color:yellow;}
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	animation: animaciones 15s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 100%;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+</style>
+</head>
+
+<body>
+<header>
+<section id="banner">
+<h1 aling="center">
+    <font color="black" size="48" face"Britannic Bold">
+	<center>
+	<h1>DEPORTES</h1></center>
+	</font>
+</h1>
+</section>
+<section id="logo">
+<center> 
+	<img src="10.JPG" width:500px; height:200px;></img>
+	</center>
+</section>
+</header>
+<nav>
+<ol class="menu"><center></center><h1>
+			<ol> <text-align:center><a href="sport.html">¿Que es el deporte?\</a></li>
+	  <text-align:center><a href="futbol.html">¿Que es el futbol?\</a></li>
+	  <text-align:center><a href="basquet.html">¿Que es el basquetaball?\</a></li>
+	  <text-align:center><a href="boli.html">¿Que es el boleibol?\</a></li>
+</ol>
+</nav>
+<main>
+<aside id="left">
+<div class="slider">
+	<ul>
+		<li><img src="1.JPG" width:100%; height:250px;></img></li>
+		<li><img src="2.JPG" width:300%; height:250px;></img></li>
+		<li><img src="3.JPG" width:300%; height:250px;></img></li>
+		<li><img src="4.JPG" width:300%; height:250px;></img></li>
+		<li><img src="5.JPG" width:300%; height:250px;></img></li>
+		<li><img src="6.JPG" width:300%; height:250px;></img></li>
+		
+	</ul>
+</aside>
+<article>
+<font color="black"; size="6"; face="Arial">
+<h1></h1>
+<center>El término deporte se refiere a una actividad física, básicamente de carácter competitivo y que mejora la condición física del individuo que lo practica. Por su parte, la Real Academia Española (RAE) define este término como “una actividad física que es ejercida por medio de una competición y cuya práctica requiere de entrenamiento y normas”. El Comité Olímpico Internacional señala que «toda persona debe tener la posibilidad de practicar deporte sin discriminación de ningún tipo y dentro del espíritu olímpico, que exige comprensión mutua, solidaridad y espíritu de amistad y de juego limpio»</center>.
+
+
+</font>
+</article>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
